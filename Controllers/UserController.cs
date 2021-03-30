@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -13,11 +14,10 @@ namespace TestApi
     [ApiController]
     public class UserController : ControllerBase
     {
-        // GET: api/<ValuesController>
         [HttpGet]
-        public async Task<string> GetAsync()
+        public async Task<string> GetAsync([FromQuery] GetModel model)
         {
-            const string GETUSER_URL = "https://dummyapi.io/data/api/user?limit=10";
+            string GETUSER_URL = String.Format("https://dummyapi.io/data/api/user?page={0}&limit={1}", model.Page, model.Limit);
             const string appId = "60630884ce28c8d3a5d836e3";
             using var getUsers = new HttpClient();
             getUsers.DefaultRequestHeaders.Add("app-id", appId);

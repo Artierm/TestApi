@@ -12,7 +12,6 @@ D:\Elinext\TestApi\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\Elinext\TestApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Elinext\TestApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Elinext\TestApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Elinext\TestApi\obj\Debug\net5.0\TestApi.csprojAssemblyReference.cache
 D:\Elinext\TestApi\obj\Debug\net5.0\TestApi.GeneratedMSBuildEditorConfig.editorconfig
 D:\Elinext\TestApi\obj\Debug\net5.0\TestApi.AssemblyInfoInputs.cache
 D:\Elinext\TestApi\obj\Debug\net5.0\TestApi.AssemblyInfo.cs
@@ -28,3 +27,4 @@ D:\Elinext\TestApi\obj\Debug\net5.0\TestApi.dll
 D:\Elinext\TestApi\obj\Debug\net5.0\ref\TestApi.dll
 D:\Elinext\TestApi\obj\Debug\net5.0\TestApi.pdb
 D:\Elinext\TestApi\obj\Debug\net5.0\TestApi.genruntimeconfig.cache
+D:\Elinext\TestApi\obj\Debug\net5.0\TestApi.csprojAssemblyReference.cache
