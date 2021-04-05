@@ -6,8 +6,6 @@ namespace TestApi.Models
 {
     public class User
     {
-        [JsonProperty("id")]
-        public string Id { get; set; }
 
         [JsonProperty("lastName")]
         public string LastName { get; set; }
@@ -18,9 +16,8 @@ namespace TestApi.Models
         [JsonProperty("email")]
         public string Email { get; set; }
 
-        public User(string id, string lastName, string firstName, string email)
+        public User(string lastName, string firstName, string email)
         {
-            Id = id;
             FirstName = firstName;
             LastName = lastName;
             Email = email;
