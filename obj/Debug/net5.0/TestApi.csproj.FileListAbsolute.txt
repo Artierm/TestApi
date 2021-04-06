@@ -27,4 +27,3 @@ D:\Elinext\TestApi\obj\Debug\net5.0\TestApi.dll
 D:\Elinext\TestApi\obj\Debug\net5.0\ref\TestApi.dll
 D:\Elinext\TestApi\obj\Debug\net5.0\TestApi.pdb
 D:\Elinext\TestApi\obj\Debug\net5.0\TestApi.genruntimeconfig.cache
-D:\Elinext\TestApi\obj\Debug\net5.0\TestApi.csprojAssemblyReference.cache

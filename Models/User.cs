@@ -17,9 +17,9 @@ namespace TestApi.Models
 
         public User(dynamic lastName, dynamic firstName, dynamic email)
         {
-            FirstName = firstName.toString();
-            LastName = lastName.toString();
-            Email = email.toString();
+            FirstName = firstName.ToString();
+            LastName = lastName.ToString();
+            Email = email.ToString();
         }
     }
 }
