@@ -27,7 +27,7 @@ namespace TestApi
             List<User> users = new List<User>();
             foreach (var values in data)
             {
-                User user = new User(values.lastName.ToString(), values.firstName.ToString(), values.email.ToString());
+                User user = new User(values.lastName, values.firstName, values.email);
                 users.Add(user);
             }
             string output = JsonConvert.SerializeObject(users, Formatting.Indented);
