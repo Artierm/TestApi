@@ -16,11 +16,11 @@ namespace TestApi.Models
         [JsonProperty("email")]
         public string Email { get; set; }
 
-        public User(string lastName, string firstName, string email)
+        public User(dynamic lastName, dynamic firstName, dynamic email)
         {
-            FirstName = firstName;
-            LastName = lastName;
-            Email = email;
+            FirstName = firstName.toString();
+            LastName = lastName.toString();
+            Email = email.toString();
         }
     }
 }
